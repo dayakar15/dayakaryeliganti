@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Code2, Cpu, Brain, Languages } from 'lucide-react';
 
 import { Card, CardContent } from '@/components/ui/card';
-import { skills } from '@/lib/constants';
+import { skills } from '@/lib/Constants';
 import { fadeIn, staggerContainer } from '@/lib/motion';
 
 export default function SkillsPage() {

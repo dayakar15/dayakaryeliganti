@@ -19,6 +19,8 @@ export const certificates = [
   },
 ];
 
+// lib/constants.ts
+
 export const siteConfig = {
   mainNav: [
     { title: 'Home', href: '/' },
@@ -27,13 +29,15 @@ export const siteConfig = {
     { title: 'Certificates', href: '/certificates' },
     { title: 'Contact', href: '/contact' },
   ],
-
   links: {
     github: 'https://github.com/dayakar15',
-    linkedin: 'https://www.linkedin.com/in/dayakar-yeliganti-263631295/', // ✅ fixed
+    linkedin: 'https://www.linkedin.com/in/dayakar-yeliganti-263631295/',
+    phone: 'tel:+916304376769', // ADDED: Replace with your number
+    email: '23ra1a6621@Kpritech.ac.in', // ADDED: Replace with your email
   },
 };
 
+// ... keep all your other exports (projects, blogPosts, etc.) exactly as they were
 export const projects = [
 	{
 		title: "Farmers Logistic Truck Sharing",
