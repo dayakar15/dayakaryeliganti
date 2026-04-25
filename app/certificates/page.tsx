@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { certificates } from '@/lib/Constants';
+import { certificates } from '@/lib/constants';
 import { SectionHeader } from '@/components/ui/section-header';
 
 export default function CertificatesPage() {

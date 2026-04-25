@@ -1,6 +1,6 @@
 'use client';
 
-import { projects } from '@/lib/Constants';
+import { projects } from '@/lib/constants';
 
 export default function ProjectsPage() {
 	return (
