@@ -7,15 +7,15 @@ import { fadeIn } from '@/lib/motion';
 
 export function ProjectsSection() {
   const projects = [
-    {
-      title: "Farmers Logistic Truck Sharing",
-      description:
-        "Farmers can share trucks with other farmers using this platform, reducing transportation costs and improving logistics efficiency.",
-      image: "/image1.png",
-      github: "https://github.com/dayakar15/Farmers-Logistic-Truck-Sharing",g",
-      demo:"#",
-      tech: ["Python", "HTML", "CSS", "Django"],
-    },
+   {
+  title: "Farmers Logistic Truck Sharing",
+  description:
+    "Farmers can share trucks with other farmers using this platform, reducing transportation costs and improving logistics efficiency.",
+  image: "/image1.png",
+  github: "https://github.com/dayakar15/Farmers-Logistic-Truck-Sharing",
+  demo: "https://dayakar15.github.io/Farmers-Logistic-Truck-Sharing",
+  tech: ["Python", "HTML", "CSS", "Django"],
+},
     {
       title: "Python Trading Bot",
       description:
