@@ -13,7 +13,7 @@ export function ProjectsSection() {
     "Farmers can share trucks with other farmers using this platform, reducing transportation costs and improving logistics efficiency.",
   image: "/image1.png",
   github: "https://github.com/dayakar15/Farmers-Logistic-Truck-Sharing",
-  demo: "https://dayakar15.github.io/Farmers-Logistic-Truck-Sharing",
+  demo: "https://dayakaryeliganti-up7d.vercel.app/",
   tech: ["Python", "HTML", "CSS", "Django"],
 },
     {
