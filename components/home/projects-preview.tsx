@@ -7,15 +7,16 @@ import { fadeIn } from '@/lib/motion';
 
 export function ProjectsSection() {
   const projects = [
-   {
-  title: "Farmers Logistic Truck Sharing",
-  description:
-    "Farmers can share trucks with other farmers using this platform, reducing transportation costs and improving logistics efficiency.",
-  image: "/image1.png",
-  github: "https://github.com/dayakar15/Farmers-Logistic-Truck-Sharing",
-  demo: "https://farmerlogictictrucksharing.netlify.app/",
-  tech: ["Python", "HTML", "CSS", "Django"],
-},
+    {
+      title: "Farmers Logistic Truck Sharing",
+      description:
+        "Farmers can share trucks with other farmers using this platform, reducing transportation costs and improving logistics efficiency.",
+      image: "/image1.png",
+      github: "https://github.com/dayakar15/Farmers-Logistic-Truck-Sharing",
+      demo: "https://farmerlogictictrucksharing.netlify.app/",
+      tech: ["Python", "HTML", "CSS", "Django"],
+    },
+
     {
       title: "Python Trading Bot",
       description:
@@ -25,6 +26,7 @@ export function ProjectsSection() {
       demo: "#",
       tech: ["Python"],
     },
+
     {
       title: "Cyber Crime Security",
       description:
@@ -90,23 +92,29 @@ export function ProjectsSection() {
 
                 {/* LINKS */}
                 <div className="flex gap-4 mt-4">
+
+                  {/* GITHUB */}
                   <a
                     href={project.github}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-blue-500 hover:underline"
                   >
                     GitHub
                   </a>
 
+                  {/* LIVE DEMO */}
                   {project.demo !== "#" && (
                     <a
                       href={project.demo}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-sm text-green-500 hover:underline"
                     >
                       Live Demo
                     </a>
                   )}
+
                 </div>
 
               </div>
